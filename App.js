@@ -7,8 +7,6 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <Text onPress={handlePress}>Hello from React native</Text>
       <Image source={require('./assets/icon.png')} />
-
-
       <StatusBar style="auto" />
     </SafeAreaView>
   );
